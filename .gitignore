@@ -1,0 +1,26 @@
+# --- CACHE E ARQUIVOS TEMPORÁRIOS ---
+__pycache__/
+.cache/
+.pytest_cache/
+.mypy_cache/
+*.py[cod]
+*$py.class
+
+# --- AMBIENTES VIRTUAIS ---
+venv/
+.venv/
+env/
+
+# --- BOX2D / BUILD / COMPILAÇÃO ---
+# (Arquivos binários e pastas de compilação da Box2D)
+build/
+dist/
+*.so
+*.dll
+*.dylib
+*.egg-info/
+
+# --- IDEs E LOGS ---
+.vscode/
+.idea/
+*.log
